@@ -1,0 +1,89 @@
+1. Introduce IOT
+2. What are requirements ?
+3. Start with one selected hardware i.e NOdE MCU
+4. Startb using some sensors - Temp, Ultrasonic 
+5. Learn how to update server with sensor readings
+6. Read the server data
+7. Controlling
+Blynk, IFtt
+
+https://github.com/bipulshahi/IOT
+
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+https://pastebin.com/6MiTr2fA
+
+https://pastebin.com/c2RYTf41
+
+1. Digital Inputs   digitalRead()
+2. Digital Outputs  digitalWrite()
+3. Serial Inputs
+4. Serial Outputs   serial.println()
+5. Analog Inputs
+6. Analog outputs  analogWrite()
+
+1. IR sensor - Infrared sensor
+2. Digital Switch 
+
+WAP for digital input and analog output.
+i.e. By default LED will glow at its maximum
+intensity and as the switch pressed it will 
+start dimming slowly
+
+swich pressed - digitalRead - High -
+	analogWrite - 255-0
+
+switch not pressed - digitaRead - LOW -
+	analogWrite - 255
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
