@@ -1,0 +1,14 @@
+1. Creating a control .php file for hume automation
+2. Extended our program for controlling multiple devices
+3. Worked with Blynk app for controlling and monitoring
+4. Relay Theory session
+5. MQTT Ppt. (Briefing)
+6. Google Assistant
+
+
+MQTT protocol practical, Adafruit platform
+
+
+
+
+http://188.166.206.43/auth_token/update/PIN
