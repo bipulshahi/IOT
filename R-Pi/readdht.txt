@@ -1,0 +1,17 @@
+import urllib2
+import json
+R_API_KEY='read api key'
+CHANNEL_ID=
+
+def main():
+    value = urllib2.urlopen
+	        ("http://api.thingspeak.com/channels/%s/
+			feeds/last.json?
+			api_key=%s"% (CHANNEL_ID,R_API_KEY))
+
+    result = value.read()
+    data=json.loads(result)
+    print data['field1'],data['created_at']
+    print data['field2'],data['created_at']
+    value.close()
+main()

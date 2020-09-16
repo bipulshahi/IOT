@@ -1,0 +1,24 @@
+import os
+import time
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BOARD)
+GPIO.setwarnings(False)
+GPIO.setup(5,GPIO.OUT)
+
+count = 0
+
+def buzzer ():
+
+	GPIO.output(5,GPIO.HIGH)
+	time.sleep(.1)
+	GPIO.output(5,GPIO.LOW)
+	time.sleep(.1)
+
+os.system('clear')
+print “Buzzer"
+count = input("How many times would you like SOS to loop?: ")
+while count > 0:
+	count = count - 1
+	buzzer ()
+
+	
